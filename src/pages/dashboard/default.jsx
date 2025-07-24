@@ -30,6 +30,7 @@ import avatar1 from 'assets/images/users/avatar-1.png';
 import avatar2 from 'assets/images/users/avatar-2.png';
 import avatar3 from 'assets/images/users/avatar-3.png';
 import avatar4 from 'assets/images/users/avatar-4.png';
+import { red } from '@ant-design/colors';
 
 // avatar style
 const avatarSX = {
@@ -52,29 +53,29 @@ const actionSX = {
 
 export default function DashboardDefault() {
   return (
-    <Grid container rowSpacing={4.5} columnSpacing={2.75}>
+    <Grid container rowSpacing={4.5} columnSpacing={2.75} >
       {/* row 1 */}
       <Grid sx={{ mb: -2.25 }} size={12}>
-        <Typography variant="h5">Dashboard</Typography>
+        <Typography variant="h2">Dashboard</Typography>
       </Grid>
-      <Grid size={{ xs: 12, sm: 6, md: 4, lg: 3 }}>
+      {/* <Grid size={{ xs: 12, sm: 6, md: 4, lg: 3 }}>
         <AnalyticEcommerce title="Total Page Views" count="4,42,236" percentage={59.3} extra="35,000" />
-      </Grid>
-      <Grid size={{ xs: 12, sm: 6, md: 4, lg: 3 }}>
+      </Grid> */}
+      {/* <Grid size={{ xs: 12, sm: 6, md: 4, lg: 3 }}>
         <AnalyticEcommerce title="Total Users" count="78,250" percentage={70.5} extra="8,900" />
-      </Grid>
-      <Grid size={{ xs: 12, sm: 6, md: 4, lg: 3 }}>
+      </Grid> */}
+      {/* <Grid size={{ xs: 12, sm: 6, md: 4, lg: 3 }}>
         <AnalyticEcommerce title="Total Order" count="18,800" percentage={27.4} isLoss color="warning" extra="1,943" />
-      </Grid>
-      <Grid size={{ xs: 12, sm: 6, md: 4, lg: 3 }}>
+      </Grid> */}
+      {/* <Grid size={{ xs: 12, sm: 6, md: 4, lg: 3 }}>
         <AnalyticEcommerce title="Total Sales" count="35,078" percentage={27.4} isLoss color="warning" extra="20,395" />
-      </Grid>
+      </Grid> */}
       <Grid sx={{ display: { sm: 'none', md: 'block', lg: 'none' } }} size={{ md: 8 }} />
       {/* row 2 */}
-      <Grid size={{ xs: 12, md: 7, lg: 8 }}>
+      {/* <Grid size={{ xs: 12, md: 7, lg: 8 }}>
         <UniqueVisitorCard />
-      </Grid>
-      <Grid size={{ xs: 12, md: 5, lg: 4 }}>
+      </Grid> */}
+      {/* <Grid size={{ xs: 12, md: 5, lg: 4 }}>
         <Grid container alignItems="center" justifyContent="space-between">
           <Grid>
             <Typography variant="h5">Income Overview</Typography>
@@ -92,9 +93,9 @@ export default function DashboardDefault() {
           </Box>
           <MonthlyBarChart />
         </MainCard>
-      </Grid>
+      </Grid> */}
       {/* row 3 */}
-      <Grid size={{ xs: 12, md: 7, lg: 8 }}>
+      {/* <Grid size={{ xs: 12, md: 7, lg: 8 }}>
         <Grid container alignItems="center" justifyContent="space-between">
           <Grid>
             <Typography variant="h5">Recent Orders</Typography>
@@ -104,8 +105,8 @@ export default function DashboardDefault() {
         <MainCard sx={{ mt: 2 }} content={false}>
           <OrdersTable />
         </MainCard>
-      </Grid>
-      <Grid size={{ xs: 12, md: 5, lg: 4 }}>
+      </Grid> */}
+      {/* <Grid size={{ xs: 12, md: 5, lg: 4 }}>
         <Grid container alignItems="center" justifyContent="space-between">
           <Grid>
             <Typography variant="h5">Analytics Report</Typography>
@@ -129,12 +130,12 @@ export default function DashboardDefault() {
           </List>
           <ReportAreaChart />
         </MainCard>
-      </Grid>
+      </Grid> */}
       {/* row 4 */}
-      <Grid size={{ xs: 12, md: 7, lg: 8 }}>
+      {/* <Grid size={{ xs: 12, md: 7, lg: 8 }}>
         <SaleReportCard />
-      </Grid>
-      <Grid size={{ xs: 12, md: 5, lg: 4 }}>
+      </Grid> */}
+      {/* <Grid size={{ xs: 12, md: 5, lg: 4 }}>
         <Grid container alignItems="center" justifyContent="space-between">
           <Grid>
             <Typography variant="h5">Transaction History</Typography>
@@ -246,7 +247,7 @@ export default function DashboardDefault() {
             </Button>
           </Stack>
         </MainCard>
-      </Grid>
+      </Grid> */}
     </Grid>
   );
 }

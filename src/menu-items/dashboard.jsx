@@ -10,7 +10,7 @@ const icons = {
 
 const dashboard = {
   id: 'group-dashboard',
-  title: 'Navigation',
+  title: 'Navegación', // ESTE TITULO SE MUESTRA EN EL MENÚ LATERAL ANTERIORMENTE EL TITULO DEL GRUPO ERA NAVIGATION
   type: 'group',
   children: [
     {
