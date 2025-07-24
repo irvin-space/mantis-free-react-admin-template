@@ -16,7 +16,7 @@ export default function AuthFooter() {
         <Typography variant="subtitle2" color="secondary">
           © Made with love by Team{' '}
           <Link href="https://codedthemes.com/" target="_blank" underline="hover">
-            CodedThemes
+            Space
           </Link>
         </Typography>
 
@@ -29,7 +29,7 @@ export default function AuthFooter() {
             target="_blank"
             underline="hover"
           >
-            Terms and Conditions
+            Términos de uso
           </Typography>
           <Typography
             variant="subtitle2"
@@ -39,7 +39,7 @@ export default function AuthFooter() {
             target="_blank"
             underline="hover"
           >
-            Privacy Policy
+            Política de privacidad
           </Typography>
         </Stack>
       </Stack>
