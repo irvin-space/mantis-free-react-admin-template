@@ -3,6 +3,8 @@ import { lazy } from 'react';
 // project imports
 import Loadable from 'components/Loadable';
 import DashboardLayout from 'layout/Dashboard';
+// import UserPage from '../pages/extra-pages/UserPage';
+import EstCambiosTramitesAduanales from '../components/estaciones/est-cambios-tramites-aduanales';
 
 // render- Dashboard
 const DashboardDefault = Loadable(lazy(() => import('pages/dashboard/default')));
@@ -49,6 +51,10 @@ const MainRoutes = {
     {
       path: 'sample-page',
       element: <SamplePage />
+    },
+    {
+      path:'user-page',
+      element: <EstCambiosTramitesAduanales/>
     }
   ]
 };
